@@ -33,7 +33,7 @@ OE_VERSION="18.0"
 OE_SUPERADMIN="admin"
 
 # Timezone. Example: Africa/Kigali, Europe/Brussels
-OE_TIMEZONE="Africa/Kigali"
+OE_TIMEZONE="Asia/Jakarta"
 
 # Nama file konfigurasi Odoo. Contoh: odoo-server.conf atau odoo.conf
 OE_CONFIG="${OE_USER}-server"
@@ -48,7 +48,7 @@ INSTALL_POSTGRESQL_SIXTEEN="True"
 INSTALL_NGINX="True"
 
 # Set to "True" to generate a random password, "False" to use the variable in OE_SUPERADMIN
-GENERATE_RANDOM_PASSWORD="True"
+GENERATE_RANDOM_PASSWORD="False"
 
 # Set the website name
 WEBSITE_NAME="example.com"
@@ -57,7 +57,7 @@ WEBSITE_NAME="example.com"
 LONGPOLLING_PORT="8072"
 
 # Set to "True" to install certbot and have ssl enabled, "False" to use http
-ENABLE_SSL="True"
+ENABLE_SSL="False"
 
 # Provide Email to register ssl certificate
 ADMIN_EMAIL="odoo@example.com"
