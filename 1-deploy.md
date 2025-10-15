@@ -1,11 +1,11 @@
 ## Versi Ubuntu
-Versi Ubuntu: 24.04
+22
 
 ## Install script
 
 Download install script
 ```
-wget https://raw.githubusercontent.com/Falestio/odoo-deploy/refs/heads/main/install_odoo_ubuntu.sh
+https://raw.githubusercontent.com/Falestio/odoo-deploy/refs/heads/main/install_odoo_ubuntu.sh
 ```
 
 `sudo chmod +x install_odoo_ubuntu.sh`
