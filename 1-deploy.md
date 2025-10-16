@@ -1,16 +1,26 @@
 ## Versi Ubuntu
-22
+24
 
 ## Install script
+timedatectl set-timezone Asia/Jakarta
 
-Download install script
-```
-https://raw.githubusercontent.com/Falestio/odoo-deploy/refs/heads/main/install_odoo_ubuntu.sh
-```
+https://www.cybrosys.com/blog/how-to-install-odoo-18-on-ubuntu-24-04-lts-server
 
-`sudo chmod +x install_odoo_ubuntu.sh`
+- install dependency library python yang akan diinstall
+- install postgre
+- setup ubuntu user
+- setup folders
+- clone repo odoo
+- install python dependency
+- setup servic
+- jalankan service 
 
-`sudo ./install_odoo_ubuntu.sh`
+## Install aditional python library
+
+sudo su - odoo18 -s /bin/bash
+cd /opt/odoo18/
+source venv/bin/activate
+
 
 ## Multi-db config
 problem: odoo punya jenis user logged in, dan user non-logged in (portal, website visitor) Jika odoo menjalankan multi database, odoo harus tau database yang mana yang non logged in user akan pakai
